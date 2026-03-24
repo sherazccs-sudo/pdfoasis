@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: pdfoasis-backend
+    env: docker
+    dockerfilePath: backend/Dockerfile
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: FRONTEND_URL
+        value: https://your-frontend-domain.vercel.app # Update this with your Vercel frontend URL after deploying
+      - key: AI_PROVIDER
+        value: local
+      - key: NODE_ENV
+        value: production

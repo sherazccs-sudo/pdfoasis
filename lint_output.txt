@@ -1,0 +1,23 @@
+
+> pdf-converter@0.1.0 lint
+> eslint
+
+
+E:\AI Generative\AI Generative\Websites Data - Antigravity\PDF Converter Website\backend\test_pdf_parse.js
+  1:13  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+E:\AI Generative\AI Generative\Websites Data - Antigravity\PDF Converter Website\backend\test_server.js
+  1:17  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+E:\AI Generative\AI Generative\Websites Data - Antigravity\PDF Converter Website\src\components\ShareTool.tsx
+  4:25  warning  'Copy' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\AI Generative\AI Generative\Websites Data - Antigravity\PDF Converter Website\src\components\ui\accordion.tsx
+  11:3  warning  'collapsible' is defined but never used  @typescript-eslint/no-unused-vars
+
+E:\AI Generative\AI Generative\Websites Data - Antigravity\PDF Converter Website\src\constants\tools.ts
+   6:3   warning  'Edit3' is defined but never used         @typescript-eslint/no-unused-vars
+  17:29  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 6 problems (3 errors, 3 warnings)
+

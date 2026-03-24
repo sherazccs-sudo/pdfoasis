@@ -1,0 +1,57 @@
+﻿
+> pdf-converter@0.1.0 dev
+> next dev
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.18.10:3000
+
+Γ£ô Starting...
+Γ£ô Ready in 1109ms
+node.exe : Γ¿» Error: 
+Attempted to call 
+buttonVariants() from the 
+server but buttonVariants 
+is on the client. It's not 
+possible to invoke a client 
+function from the server, 
+it can only be rendered as 
+a Component or passed to 
+props of a Client Component.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecifi    ed: 
+(Γ¿» Error: At    te...ient 
+Componen    t.:String) [], 
+Rem    oteException
+    + FullyQualifiedEr    
+rorId : NativeComm    
+andError
+ 
+    at Footer (src\component
+s\Footer.tsx:54:43)
+  52 |               href="h
+ttps://www.buymeacoffee.com"
+ 
+  53 |               
+target="_blank"
+> 54 |               classNa
+me={cn(buttonVariants({ 
+variant: "default" }), 
+"w-full text-xs font-bold")}
+     |                      
+                     ^
+  55 |             >
+  56 |               Donate 
+Now
+  57 |             </Link> {
+  digest: '2652328810'
+}
+ GET /tools/pdf-to-word 500 in 1038ms (compile: 370ms, render: 668ms)
